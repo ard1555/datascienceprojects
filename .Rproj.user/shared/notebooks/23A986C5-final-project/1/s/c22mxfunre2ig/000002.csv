@@ -1,0 +1,4 @@
+"0","par(mfrow = c(2,2))"
+"0","plot(model5.AIC)"
+"2","Error in plot(model5.AIC) : object 'model5.AIC' not found
+"

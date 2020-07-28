@@ -1,0 +1,5 @@
+"0","dataset$JOBSATIS_UPDATED[dataset$JOBSATIS[] == 1 | dataset$JOBSATIS[] == 2 ] <- 0"
+"0","dataset$JOBSATIS_UPDATED[dataset$JOBSATIS[] == 3 | dataset$JOBSATIS[] == 4 ] <- 1"
+"0","dataset$is.satis <- 0"
+"0","dataset$is.satis[dataset$JOBSATIS_UPDATED == 1] <- 1"
+"0","dataset"

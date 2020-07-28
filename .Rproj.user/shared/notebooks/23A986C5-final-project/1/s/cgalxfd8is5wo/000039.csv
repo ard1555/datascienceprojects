@@ -1,0 +1,4 @@
+"0",""
+"0","bachelor_deg <- subset(dataset, DGRDG == 1)"
+"0","plot(x=bachelor_deg$NDGMEMG, y = bachelor_deg$HD03Y5,main = ""Bachelors Degrees"", xlab=""Field of Study"", ylab=""Year"", names=c(""Math"",""Bio"", ""Physical"", ""Social"", ""Engin."", ""Sci."",  ""Non""))"
+"0",""

@@ -1,0 +1,2 @@
+"0",""
+"0","gender_plot <- plot(dataset$GENDER, xlab=""Gender"", ylab=""Number of Individuals"")"

@@ -1,0 +1,33 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r}
+
+data.with <- c(4.7, 5.1, 7.9, 7.0, 7.1, 7.2, 7.1, 7.2, 4.8, 5.2, 4.6, 6.7)
+data.without <- c(3.8, 4.9, 7.4, 7.1, 6.2, 6.1, 6.7, 7.0, 4.3, 5.0, 4.1, 6.1)
+
+t.test(data.with, data.without)
+
+barplot(data.with)
+barplot(data.without)
+
+```
+
+```{r}
+
+prop <- 295/1324
+
+prop + (1.645)*(sqrt((.222)*(1-.222)/1324))
+prop - (1.645)*(sqrt((.222)*(1-.222)/1324))
+
+
+qbeta(.95, 452.2, 1395.8)
+qbeta(.05, 452.2, 1395.8)
+
+pbeta(.23, 452.2, 1395.8)
+
+
+
+```

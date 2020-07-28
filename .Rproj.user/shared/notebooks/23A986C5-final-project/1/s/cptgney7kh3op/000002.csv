@@ -1,0 +1,6 @@
+"0",""
+"0","updated_model <- glm(is.satis ~ AGE + as.factor(GENDER) + as.factor(DGRDG) + as.factor(RACETH) + as.factor(NBAMEMG) + + as.factor(WKSWKGR) + as.factor(HRSWKGR) + as.factor(JOBINS) + as.factor(JOBPENS) + as.factor(JOBPROFT) + as.factor(JOBVAC) + as.factor(FTPRET) + as.factor(OCEDRLP) + as.factor(SATIND) + as.factor(SATLOC) + as.factor(SATRESP) + as.factor(SATSAL) + as.factor(SATSEC) + as.factor(SATSOC), family = ""binomial"", data = dataset)"
+"0",""
+"0","as.factor(GENDER) + as.factor(DGRDG) + as.factor(RACETH) + as.character(NBAMEMG) + as.factor(WKSWKGR) + as.factor(HRSWKGR) + as.factor(JOBINS) + as.factor(JOBPENS) + as.factor(JOBPROFT) + as.character(JOBVAC) + as.factor(FTPRET) + as.factor(OCEDRLP) + as.factor(EMSEC) + as.factor(JOBSATIS) + as.factor(SATSAL) + as.factor(SATADV) + as.factor(MGRNAT) + as.factor(MGROTH)"
+"2","Error in is.factor(x) : object 'GENDER' not found
+"
